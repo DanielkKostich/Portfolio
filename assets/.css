@@ -11,6 +11,7 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 #main-header {
@@ -45,7 +46,8 @@ color:rgb(72, 255, 6)
 }
 
 #SpecialElement {
-   background-image: url(../images/steel.jpg); 
+    background-image: url(../images/steel.jpg);
+   color: lime;
    min-height: 300px;
    margin-bottom: 25px;
    text-align: center;
@@ -69,13 +71,20 @@ color:rgb(72, 255, 6)
 }
 
 #side-bar{
+    text-align: center;
     float: right;
     width:30%;
     background-image: url(../images/steel.jpg);
     color: rgb(1, 251, 5);
     padding: 10px;
     box-sizing: border-box;
+    min-height: 122px;
 }
+
+#side-bar ul{
+list-style: none;
+}
+
 
 #mainFooter{
     background-image: url(../images/cool.jfif);
@@ -87,7 +96,7 @@ color:rgb(72, 255, 6)
 
 @media(max-width:600px){
     
-    #main{
+    #MainElement{
         width: 100%;
         float: none;
     }
