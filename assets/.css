@@ -69,6 +69,7 @@ right:3%;
     padding: 0 30px;
     box-sizing:border-box;
     display: block;
+    text-align: center;
 }
 
 #MainElement a{
@@ -80,6 +81,14 @@ right:3%;
 
 img{border: 3px solid #1aff01;
     border-radius: 15px;
+    max-height: 250px;
+    margin:2%;
+    float: left;
+}
+
+.me{
+    max-height: 150px;
+    margin-top: 30px;
 }
 
 #MainElement a:hover{
