@@ -12,9 +12,11 @@ body {
     margin: auto;
     overflow: hidden; 
     background-image: url(../images/backer.jfif);
+    font-weight: bolder;
 }
 
 #main-header {
+    font-size: 25px;
     text-align: center;
 color:lime
 
@@ -56,12 +58,12 @@ color:lime
    min-height: 300px;
    margin-bottom: 25px;
    text-align: center;
-
+   font-weight: bolder;
+   font-size: 20px;
 }
 
 #SpecialElement h1{
     color: lime;
-    font-size: 50px;
     line-height: 1.5em;
     padding-top: 30px;
 }
@@ -70,12 +72,14 @@ color:lime
     color: lime;
     float: left;
     width:80%;
-    padding: 0 30px;
     box-sizing:border-box;
     display: block;
     text-align: center;
+    font-weight: bolder;
 }
-
+#MainElement h2{
+    font-size: 35px;
+}
 #MainElement li{
     margin: 2%;
     display: inline-block;
@@ -99,6 +103,7 @@ img{border: 3px solid #1aff01;
 
 img:hover{
     opacity: 50%;
+    border: 3px solid rgb(255, 0, 0)
 }
 
 #MainElement a:hover{
@@ -117,11 +122,18 @@ img:hover{
     padding: 10px;
     box-sizing: border-box;
     min-height: 170px;
+   
 }
 
 #side-bar a{
     text-decoration: none;
     color: rgb(255, 0, 0);
+}
+
+#side-bar h2{
+    font-size: 30px;
+    font-weight:900;
+    
 }
 
 #side-bar a:hover{
